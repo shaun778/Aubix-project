@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- header display main Information -->
+<head>
+    <title>Aubix 次世代智慧建築</title>
+    <link rel="icon" type="./images/png" href="images/au-logo.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- body define grid layout system -->
+<body>
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- container -->
+<div class="secondary-bg">
+    <div class="container">
+        <div class="wrapper">
+            <nav>
+                <input type="checkbox" id="show-search">
+                <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <div class="au-content">
+            <div class="logo"><a href="#"><img src="./images/aubix-logo.svg"></a></div>
+        <ul class="links">
+            <li><a href="/index.html">首頁</a></li>
+            <li><a href="#" class="desktop-link">認識 Aubix</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">認識 Aubix</label>
+            <ul>
+                <li><a href="#">Drop Menu 1</a></li>
+                <li><a href="#">Drop Menu 2</a></li>
+                <li><a href="#">Drop Menu 3</a></li>
+                <li><a href="#">Drop Menu 4</a></li>
+            </ul>
+            </li>
+            <li><a href="#">解決方案</a></li>
+            <li><a href="#" class="desktop-link">關於我們</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">關於我們</label>
+            <ul>
+                <li><a href="#">Drop Menu 1</a></li>
+                <li><a href="#">Drop Menu 2</a></li>
+                <li><a href="#">Drop Menu 3</a></li>
+                <li>
+                <a href="#" class="desktop-link">More Items</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">More Items</label>
+                <ul>
+                    <li><a href="#">Sub Menu 1</a></li>
+                    <li><a href="#">Sub Menu 2</a></li>
+                    <li><a href="#">Sub Menu 3</a></li>
+                </ul>
+                </li>
+            </ul>
+            </li>
+            <li><a href="#">資源</a></li>
+                <form action="./connent.html">
+                    <input class="cta-btn" type="submit" name="Submit" value="CONTACT">
+                    </form>
+        </ul>
+        </div>
+        <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+        <form action="#" class="search-box">
+            <input type="text" placeholder="Type Something to Search..." required>
+            <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+        </form>
+        </nav>
+</div>
+
+
+        
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- homepage -->
+<div class="letter">
+    <div class="contact-us">
+        <div class="title">
+            <h1>Connent us</h1>
+        </div>
+        <div class="box">
+            <!-- Form -->
+            <div class="contact form">
+                <h3>想更了解相關內容，填寫相關資訊聯絡我們</h3>
+                <form class="row g-3" action="https://formsubmit.co/shane@aubix.com" method="POST">
+                    <!-- honeypot -->
+                    <input type="text" name="_honey" style="display:none;">
+                    <!-- disable captcha -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://shaun778.github.io/formsubmitdemo/success.html">
+                    <div class="formBox">
+                        <div class="row50">
+                            <div class="inputBox" data-error="*請確實填寫內容.">
+                                <span>Frist Name</span>
+                                <input type="text" class="input" placeholder="Type your first name" name="name" id="text" required>
+                            </div>
+                            <div class="inputBox" data-error="*Sorry. that username is taken.">
+                                <span>Last Name</span>
+                                <input type="text" class="input" placeholder="Type your last name" name="Last&nbsp;name" id="lastName" required>
+                            </div>
+                            <div class="inputBox" data-error="*Sorry. that username is taken.">
+                                <span>Email</span>
+                                <input type="text" class="input" placeholder="aubix@gmail.com" name="Email" id="email" required>
+                            </div>
+                            <div class="inputBox" data-error="*Sorry. that username is taken.">
+                                <span>Mobile</span>
+                                <input type="text" class="input" placeholder="09000000" name="Mobile" id="mobile" required>
+                            </div>
+                        </div>
+                            <div class="row100">
+                                <div class="inputBox">
+                                    <span>Message</span>
+                                    <textarea placeholder="Write your message here.." id="comments" name="commenrs,question" rows="3" required></textarea>
+                                </div>
+                            </div>
+                            <label class="newscheck">
+                                <input type="checkbox" checked="checked">
+                                <p>Lorem ipsum dolor sit,Corporis aut perferendis quae cupiditate aliquam maxime?</p>
+                                <span class="checkmark"></span>
+                            </label>
+                            <div class="row100">
+                                <div class="inputBox">
+                                    <input type="submit" value="Send">
+                                </div>
+                            </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- footer -->
+<footer class="footer">
+    <div class="site-footer">
+        <div class="site-footer_nav">
+            <div class="site-footer_nav-menu">
+                <p class="site-footer_nav-title">IoT Solutions</p>
+                <ul id="menu-footer-solutions" class="site-footer_nav-list">
+                    <li id="menu-item" class="menu-item type-001">
+                        <a title="item-001" href="">Smart Agriculture</a></li>
+                        <li id="menu-item" class="menu-item type-002">
+                            <a href="">Smart Water</a></li>
+                            <li id="menu-item" class="menu-item type-003">
+                                <a href="">Smart Environment</a></li>
+                                <li id="menu-item" class="menu-item type-004">
+                                    <a href="">Water Management</a></li>
+                                    <li id="menu-item" class="menu-item type-005">
+                                        <a href="">Smart Cities</a></li>
+                                        <li id="menu-item" class="menu-item type-006">
+                                            <a href="">Smart Parking</a></li>
+                                            <li id="menu-item" class="menu-item type-007">
+                                                <a href="">Smart Retail</a></li>
+                </ul>
+            </div>
+            <div class="site-footer_nav-menu">
+                <p class="site-footer_nav-title">IoT Services</p>
+                <ul id="menu-footer-solutions" class="site-footer_nav-list">
+                    <li id="menu-item" class="menu-item type-001">
+                        <a title="item-001" href="">Smart Agriculture</a></li>
+                        <li id="menu-item" class="menu-item type-002">
+                            <a href="">Smart Water</a></li>
+                            <li id="menu-item" class="menu-item type-003">
+                                <a href="">Smart Environment</a></li>
+                                <li id="menu-item" class="menu-item type-004">
+                                    <a href="">Water Management</a></li>
+                                    <li id="menu-item" class="menu-item type-005">
+                                        <a href="">Smart Cities</a></li>
+                                        <li id="menu-item" class="menu-item type-006">
+                                            <a href="">Smart Parking</a></li>
+                                            <li id="menu-item" class="menu-item type-007">
+                                                <a href="">Smart Retail</a></li>
+                </ul>
+            </div>
+            <div class="site-footer_nav-menu">
+                <p class="site-footer_nav-title">IoT Products</p>
+                <ul id="menu-footer-solutions" class="site-footer_nav-list">
+                    <li id="menu-item" class="menu-item type-001">
+                        <a title="item-001" href="">Smart Agriculture</a></li>
+                        <li id="menu-item" class="menu-item type-002">
+                            <a href="">Smart Water</a></li>
+                            <li id="menu-item" class="menu-item type-003">
+                                <a href="">Smart Environment</a></li>
+                                <li id="menu-item" class="menu-item type-004">
+                                    <a href="">Water Management</a></li>
+                                    <li id="menu-item" class="menu-item type-005">
+                                        <a href="">Smart Cities</a></li>
+                                        <li id="menu-item" class="menu-item type-006">
+                                            <a href="">Smart Parking</a></li>
+                                            <li id="menu-item" class="menu-item type-007">
+                                                <a href="">Smart Retail</a></li>
+                </ul>
+            </div>
+            <div class="site-footer_nav-menu">
+                <p class="site-footer_nav-title">Company</p>
+                <ul id="menu-footer-solutions" class="site-footer_nav-list">
+                    <li id="menu-item" class="menu-item type-001">
+                        <a title="item-001" href="">Smart Agriculture</a></li>
+                        <li id="menu-item" class="menu-item type-002">
+                            <a href="">Smart Water</a></li>
+                            <li id="menu-item" class="menu-item type-003">
+                                <a href="">Smart Environment</a></li>
+                                <li id="menu-item" class="menu-item type-004">
+                                    <a href="">Water Management</a></li>
+                                    <li id="menu-item" class="menu-item type-005">
+                                        <a href="">Smart Cities</a></li>
+                                        <li id="menu-item" class="menu-item type-006">
+                                            <a href="">Smart Parking</a></li>
+                                            <li id="menu-item" class="menu-item type-007">
+                                                <a href="">Smart Retail</a></li>
+                </ul>
+            </div>
+            <div class="site-footer_nav-menu">
+                <p class="site-footer_nav-title">Shop</p>
+                <ul id="menu-footer-solutions" class="site-footer_nav-list">
+                    <li id="menu-item" class="menu-item type-001">
+                        <a title="item-001" href="">Smart Agriculture</a></li>
+                        <li id="menu-item" class="menu-item type-002">
+                            <a href="">Smart Water</a></li>
+                            <li id="menu-item" class="menu-item type-003">
+                                <a href="">Smart Environment</a></li>
+                                <li id="menu-item" class="menu-item type-004">
+                                    <a href="">Water Management</a></li>
+                                    <li id="menu-item" class="menu-item type-005">
+                                        <a href="">Smart Cities</a></li>
+                                        <li id="menu-item" class="menu-item type-006">
+                                            <a href="">Smart Parking</a></li>
+                                            <li id="menu-item" class="menu-item type-007">
+                                                <a href="">Smart Retail</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="site-footer_news">
+            <p class="site-footer_news-title">
+                " Would you like to be in “the know” of what’s happening at 
+                the Internet of Things? Sign up and receive the latest, excitest news."
+            </p>
+            <a class="btn site-footer_news-link" href=""> Newsletter </a>
+        </div>
+    </div>
+    <div class="site-footer_colophon">
+        <div class="site-footer_corporate">
+            <a href="" title="Aubix">
+                <img src="./images/logo-white.svg" alt="Aubix" class="site-footer_corporate-img">
+            </a>
+            <p class="site-footer_corporate-text">
+                "© Libelium Comunicaciones Distribuidas S.L. "
+                <span class="site-footer_corporate-bound">
+                    <a href="" title="">"Terms and conditions"</a>
+                    <a href="" title="">"Privacy policy"</a>
+                    <a href="" title="">"Cookies"</a>
+                </span>
+            </p>
+        </div>
+    </div>
+</footer>
+</div>
+    <script>
+        document.querySelectorAll('.inputBox[data-error] .input').forEach(inpE1 => {
+            inpE1.addEventListener('input',() => inpE1.parentElement.removeAttribute('data-error'));
+        });
+    </script>
+    <!-- <script src="main.js"></script> -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
