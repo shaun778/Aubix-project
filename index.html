@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- header display main Information -->
+<head>
+    <title>Aubix 次世代智慧建築</title>
+    <link rel="icon" type="./images/png" href="images/au-logo.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- body define grid layout system -->
+<body>
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- container -->
+<div class="main-bg">
+    <div class="container">
+        <div class="wrapper">
+            <nav>
+                <input type="checkbox" id="show-search">
+                <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <div class="au-content">
+            <div class="logo"><a href="#"><img src="./images/aubix-logo.svg"></a></div>
+        <ul class="links">
+            <li><a href="#">首頁</a></li>
+            <li><a href="#" class="desktop-link">認識 Aubix</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">認識 Aubix</label>
+            <ul>
+                <li><a href="#">Drop Menu 1</a></li>
+                <li><a href="#">Drop Menu 2</a></li>
+                <li><a href="#">Drop Menu 3</a></li>
+                <li><a href="#">Drop Menu 4</a></li>
+            </ul>
+            </li>
+            <li><a href="#">解決方案</a></li>
+            <li><a href="#" class="desktop-link">關於我們</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">關於我們</label>
+            <ul>
+                <li><a href="#">Drop Menu 1</a></li>
+                <li><a href="#">Drop Menu 2</a></li>
+                <li><a href="#">Drop Menu 3</a></li>
+                <li>
+                <a href="#" class="desktop-link">More Items</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">More Items</label>
+                <ul>
+                    <li><a href="#">Sub Menu 1</a></li>
+                    <li><a href="#">Sub Menu 2</a></li>
+                    <li><a href="#">Sub Menu 3</a></li>
+                </ul>
+                </li>
+            </ul>
+            </li>
+            <li><a href="#">資源</a></li>
+                <form action="./connent.html">
+                    <input class="cta-btn" type="submit" name="Submit" value="Read more">
+                    </form>
+        </ul>
+        
+        </div>
+        <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+        <form action="#" class="search-box">
+            <input type="text" placeholder="Type Something to Search..." required>
+            <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+        </form>
+        </nav>
+</div>
+
+
+        
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- homepage -->
+<div class="homepage">
+    <div class="hometext">
+        <div class="wordCarousel">
+            <span>Next - Generation</span>
+            <div>
+            <ul class="flip4">
+                <li>IOT:FM</li>
+                <li>Sweet</li>
+                <li>Cool</li>
+                <li>Awesome</li>
+            </ul>
+        </div>
+        <h2>Smart Building Management System</h2>
+        <P>為客戶開發人性服務的智慧建築管理系統<br>
+        打造具有自主性的智慧建築/環境</P>
+            
+</div>
+<div class="btn-au">
+    <button class="btn-hover color-9" href="https://www.sketch.com/">了解 Aubix</button>
+</div>
+<div class="auco-ul">
+    <h4>服務點位內容<br></h4>
+<ul>
+    <li>
+<div class="content">
+    <h3>優比思科技『Aubix』次世代智慧建築系統</h3>
+    <p>
+        ⦿ BIM -- 設施維護為核心<br>
+        ⦿ BA --- 設備整合為基礎<br>
+        ⦿ IAQ -- 健康環境為背景<br>
+        ⦿ AI --- 數據化演算服務優化<br>
+    創建全新『次世代智慧建築管理平台』，協助客戶達到智慧建築管理、與創造健康高效的工作環境</p>
+    </div>
+    <div class="auco-center">
+
+    </div>
+</li>  
+</ul>
+
+</div>
+</div>
+</div>
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- video -->
+<div class="video">
+            <div class="play-vid">
+            <img src="./images/play-circle.svg" class="play"  alt=""
+            onclick="playVideo('media/iMac Apple.mp4')">
+        </div>
+            <div class="video-player" id="videoPlayer">
+                <video max width="100%" controls autoplay muted id="myVideo">
+                    <source src="./media/iMac Apple.mp4" type="video/mp4">
+                </video>
+                <img src="./images/x-square.svg" class="close-btn" onclick="stopVideo()">
+            </div>
+            <script>
+                var videoPlayer = document .getElementById("videoPlayer");
+                var myVideo = document .getElementById("myVideo");
+
+                function stopVideo(){
+                    videoPlayer.style.display = "none";
+                    
+                }
+
+                function playVideo(file){
+                    myVideo.src = file;
+                    videoPlayer.style.display = "block";
+                }
+            </script>
+
+</div>
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- feature-content -->
+<div class="first-fte">
+    <h1>Abus us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="frt-cards01">
+        <embed src="./images/star.svg" style = "display:block;width:60px;height:60px;margin:auto;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Similique qui suscipit quas, animi placeat minus! Possimus
+        .</p>
+    </div>
+    <div class="frt-cards02">
+        <embed src="./images/star.svg" style = "display:block;width:60px;height:60px;margin:auto;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Similique qui suscipit quas, animi placeat minus! Possimus
+            .</p>
+    </div>
+    <div class="frt-cards03">
+        <embed src="./images/star.svg" style = "display:block;width:60px;height:60px;margin:auto;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Similique qui suscipit quas, animi placeat minus! Possimus
+        .</p>
+        
+    </div>
+</div>
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- main-content -->
+<div class="second-fte">
+    <div class="tabs" id="tab">
+        <h2>純軟體SaaS服務 - 設施管理</h2>
+<p>開啟即服務，無需額外硬體建置費用</p>
+        <div class="tab-header">
+            <div class="active">考勤管理</div>
+            <div>資產清冊</div>
+            <div>異常履歷</div>
+            <div>請求派單</div>
+            <div>排程管理任務</div>
+            <div>代辦事項</div>
+            <div>庫存管理</div>
+            <div>儀表板</div>
+        </div>
+    <div class="tab-body">
+<div class="active">
+<h1>快速掌握專案任務資訊</h1>
+<h2>手機定位打卡</h2>
+<ul>
+    <li>多區據點管理後台設置，作為任務及人員派遣之出勤配置</li>
+    <li>多元支持 GPS定位 & QRcode 掃描等打卡方式</li>
+    <li>滿足同仁上下班考勤 ＆ 各任務執勤點報需求</li>
+    <li>快速掌握每日執行案場名單，任務數量及告警事件</li>
+</ul>
+<div class="tab-img">
+    <embed src="./images/mockup01.png" width="80%">
+</div>
+</div>
+<div>
+    <h1>Handoff</h1>
+    <h2>交付協作</h2>
+    <ul>
+        <li>多區據點管理後台設置，作為任務及人員派遣之出勤配置</li>
+        <li>多元支持 GPS定位 & QRcode 掃描等打卡方式</li>
+        <li>滿足同仁上下班考勤 ＆ 各任務執勤點報需求</li>
+        <li>快速掌握每日執行案場名單，任務數量及告警事件</li>
+    </ul>
+    <div class="tab-img">
+        <img src="./images/img01.png" alt="">
+    </div>
+    </div>
+    <div>
+        <h1>Handoff</h1>
+        <h2>交付協作</h2>
+        <ul>
+            <li>多區據點管理後台設置，作為任務及人員派遣之出勤配置</li>
+            <li>多元支持 GPS定位 & QRcode 掃描等打卡方式</li>
+            <li>滿足同仁上下班考勤 ＆ 各任務執勤點報需求</li>
+            <li>快速掌握每日執行案場名單，任務數量及告警事件</li>
+        </ul>
+        <div class="tab-img">
+            <img src="./images/img01.png" alt="">
+        </div>
+        </div>
+        <div>
+            <h1>Handoff</h1>
+            <h2>交付協作</h2>
+            <ul>
+                <li>多區據點管理後台設置，作為任務及人員派遣之出勤配置</li>
+                <li>多元支持 GPS定位 & QRcode 掃描等打卡方式</li>
+                <li>滿足同仁上下班考勤 ＆ 各任務執勤點報需求</li>
+                <li>快速掌握每日執行案場名單，任務數量及告警事件</li>
+            </ul>
+            <div class="tab-img">
+                <img src="./images/img01.png" alt="">
+            </div>
+            </div>
+            <div>
+                <h1>Handoff</h1>
+                <h2>交付協作</h2>
+                <ul>
+                    <li>多區據點管理後台設置，作為任務及人員派遣之出勤配置</li>
+                    <li>多元支持 GPS定位 & QRcode 掃描等打卡方式</li>
+                    <li>滿足同仁上下班考勤 ＆ 各任務執勤點報需求</li>
+                    <li>快速掌握每日執行案場名單，任務數量及告警事件</li>
+                </ul>
+                <div class="tab-img">
+                    <img src="./images/img01.png" alt="">
+                </div>
+                </div>
+                <div>
+                    <h1>Handoff</h1>
+                    <h2>交付協作</h2>
+                    <ul>
+                        <li>多區據點管理後台設置，作為任務及人員派遣之出勤配置</li>
+                        <li>多元支持 GPS定位 & QRcode 掃描等打卡方式</li>
+                        <li>滿足同仁上下班考勤 ＆ 各任務執勤點報需求</li>
+                        <li>快速掌握每日執行案場名單，任務數量及告警事件</li>
+                    </ul>
+                    <div class="tab-img">
+                        <img src="./images/img01.png" alt="">
+                    </div>
+                    </div>
+                    <div>
+                        <h1>Handoff</h1>
+                        <h2>交付協作</h2>
+                        <ul>
+                            <li>多區據點管理後台設置，作為任務及人員派遣之出勤配置</li>
+                            <li>多元支持 GPS定位 & QRcode 掃描等打卡方式</li>
+                            <li>滿足同仁上下班考勤 ＆ 各任務執勤點報需求</li>
+                            <li>快速掌握每日執行案場名單，任務數量及告警事件</li>
+                        </ul>
+                        <div class="tab-img">
+                            <img src="./images/img01.png" alt="">
+                        </div>
+                        </div>
+                        <div>
+                            <h1>Handoff</h1>
+                            <h2>交付協作</h2>
+                            <ul>
+                                <li>多區據點管理後台設置，作為任務及人員派遣之出勤配置</li>
+                                <li>多元支持 GPS定位 & QRcode 掃描等打卡方式</li>
+                                <li>滿足同仁上下班考勤 ＆ 各任務執勤點報需求</li>
+                                <li>快速掌握每日執行案場名單，任務數量及告警事件</li>
+                            </ul>
+                            <div class="tab-img">
+                                <img src="./images/img01.png" alt="">
+                            </div>
+                            </div>
+    </div>
+</div>
+</div>
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- fourth-fte -->
+<div class="fourth-fte">
+    <div class="tabs02" id="tab02">
+        <h2>硬體搭配 - 環控整合</h2>
+<p>建築 BA 整合，帶來更自動化的管理成效</p>
+        <div class="tab-header02">
+            <div class="active02">設備監控</div>
+            <div>能源管理</div>
+            <div>環境健康</div>
+            <div>AI 新風自動控制</div>
+            <div>PET 舒適度自動控制</div>
+            <!-- <div>代辦事項</div>
+            <div>庫存管理</div>
+            <div>儀表板</div> -->
+        </div>
+    <div class="tab-body02">
+<div class="active02">
+<h1>快速掌握專案任務資訊</h1>
+<h2>手機定位打卡</h2>
+<ul>
+    <li>多區據點管理後台設置，作為任務及人員派遣之出勤配置</li>
+    <li>多元支持 GPS定位 & QRcode 掃描等打卡方式</li>
+    <li>滿足同仁上下班考勤 ＆ 各任務執勤點報需求</li>
+    <li>快速掌握每日執行案場名單，任務數量及告警事件</li>
+</ul>
+<div class="tab-img">
+    <embed src="./images/mockup01.png" width="80%">
+</div>
+</div>
+<div>
+    <h1>Handoff</h1>
+    <h2>交付協作</h2>
+    <ul>
+        <li>多區據點管理後台設置，作為任務及人員派遣之出勤配置</li>
+        <li>多元支持 GPS定位 & QRcode 掃描等打卡方式</li>
+        <li>滿足同仁上下班考勤 ＆ 各任務執勤點報需求</li>
+        <li>快速掌握每日執行案場名單，任務數量及告警事件</li>
+    </ul>
+    <div class="tab-img">
+        <img src="./images/img01.png" alt="">
+    </div>
+    </div>
+    <div>
+        <h1>Handoff</h1>
+        <h2>交付協作</h2>
+        <ul>
+            <li>多區據點管理後台設置，作為任務及人員派遣之出勤配置</li>
+            <li>多元支持 GPS定位 & QRcode 掃描等打卡方式</li>
+            <li>滿足同仁上下班考勤 ＆ 各任務執勤點報需求</li>
+            <li>快速掌握每日執行案場名單，任務數量及告警事件</li>
+        </ul>
+        <div class="tab-img">
+            <img src="./images/img01.png" alt="">
+        </div>
+        </div>
+        <div>
+            <h1>Handoff</h1>
+            <h2>交付協作</h2>
+            <ul>
+                <li>多區據點管理後台設置，作為任務及人員派遣之出勤配置</li>
+                <li>多元支持 GPS定位 & QRcode 掃描等打卡方式</li>
+                <li>滿足同仁上下班考勤 ＆ 各任務執勤點報需求</li>
+                <li>快速掌握每日執行案場名單，任務數量及告警事件</li>
+            </ul>
+            <div class="tab-img">
+                <img src="./images/img01.png" alt="">
+            </div>
+            </div>
+            <div>
+                <h1>Handoff</h1>
+                <h2>交付協作</h2>
+                <ul>
+                    <li>多區據點管理後台設置，作為任務及人員派遣之出勤配置</li>
+                    <li>多元支持 GPS定位 & QRcode 掃描等打卡方式</li>
+                    <li>滿足同仁上下班考勤 ＆ 各任務執勤點報需求</li>
+                    <li>快速掌握每日執行案場名單，任務數量及告警事件</li>
+                </ul>
+                <div class="tab-img">
+                    <img src="./images/img01.png" alt="">
+                </div>
+                </div>
+                <div>
+                    <h1>Handoff</h1>
+                    <h2>交付協作</h2>
+                    <ul>
+                        <li>多區據點管理後台設置，作為任務及人員派遣之出勤配置</li>
+                        <li>多元支持 GPS定位 & QRcode 掃描等打卡方式</li>
+                        <li>滿足同仁上下班考勤 ＆ 各任務執勤點報需求</li>
+                        <li>快速掌握每日執行案場名單，任務數量及告警事件</li>
+                    </ul>
+                    <div class="tab-img">
+                        <img src="./images/img01.png" alt="">
+                    </div>
+                    </div>
+                    <div>
+                        <h1>Handoff</h1>
+                        <h2>交付協作</h2>
+                        <ul>
+                            <li>多區據點管理後台設置，作為任務及人員派遣之出勤配置</li>
+                            <li>多元支持 GPS定位 & QRcode 掃描等打卡方式</li>
+                            <li>滿足同仁上下班考勤 ＆ 各任務執勤點報需求</li>
+                            <li>快速掌握每日執行案場名單，任務數量及告警事件</li>
+                        </ul>
+                        -->
+                            </div>
+    </div>
+    
+
+</div>
+</div>
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- icon-bar -->
+<div class="icon-bar">
+    <div class="home-logo">
+        <h3 class="logos-title">Trusted by innovative companies worldwide</h3>
+    <div class="logos">
+    <embed src="./icons/Google.svg" width="120px" height="120px" viewBox="0 0 120 120" version="1.1">
+    </div>
+    <div class="logos">
+        <embed src="./icons/Medium.svg" width="120px" height="120px" viewBox="0 0 120 120" version="1.1">
+        </div>
+        <div class="logos">
+            <embed src="./icons/Airbnb.svg" width="120px" height="120px" viewBox="0 0 120 120" version="1.1">
+            </div>
+            <div class="logos">
+                <embed src="./icons/Amazon.svg" width="120px" height="120px" viewBox="0 0 120 120" version="1.1">
+                </div>
+                <div class="logos">
+                    <embed src="./icons/PayPal.svg" width="120px" height="120px" viewBox="0 0 120 120" version="1.1">
+                    </div>
+                </div>
+</div>
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- label-bar -->
+<div class="news-cards">
+    <h4>News</h4>
+</div>
+<div class="label-bar owl-carousel"> 
+    <div class="card">
+        <div class="img"><img src="./images/img01.png" alt=""></div>
+        <div class="content">
+            <div class="title">Aubix</div>
+            <div class="chip">
+                <i class="close material-icons">UX Designer</i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Velit blanditiis labore facilis aliquam </p>
+            <form action="https://mnya.tw">
+            <input type="submit" value="Read more" style="width:120px; height:40px; color: #fff; background-color: #1A68FF;  border-radius: 50px; border: none; outline: none;">
+            </form>
+        </div>
+    </div>
+    <div class="card">
+        <div class="img"><img src="./images/img02.png" alt=""></div>
+        <div class="content">
+            <div class="title">Aubix</div>
+            <div class="chip">
+                <i class="close material-icons">UX Designer</i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Velit blanditiis labore facilis aliquam </p>
+                <form action="https://mnya.tw">
+                    <input type="submit" value="Read more" style="width:120px; height:40px; color: #fff; background-color: #1A68FF;  border-radius: 50px; border: none; outline: none;">
+                    </form>
+        </div>
+    </div>
+    <div class="card">
+        <div class="img"><img src="./images/img03.png" alt=""></div>
+        <div class="content">
+            <div class="title">Aubix</div>
+            <div class="chip">
+                <i class="close material-icons">UX Designer</i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Velit blanditiis labore facilis aliquam </p>
+                <form action="https://mnya.tw">
+                    <input type="submit" value="Read more" style="width:120px; height:40px; color: #fff; background-color: #1A68FF;  border-radius: 50px; border: none; outline: none;">
+                    </form>
+        </div>
+    </div>
+    <div class="card">
+        <div class="img"><img src="./images/img04.png" alt=""></div>
+        <div class="content">
+            <div class="title">Aubix</div>
+            <div class="chip">
+                <i class="close material-icons">UX Designer</i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Velit blanditiis labore facilis aliquam </p>
+                <form action="https://mnya.tw">
+                    <input type="submit" value="Read more" style="width:120px; height:40px; color: #fff; background-color: #1A68FF;  border-radius: 50px; border: none; outline: none;">
+                    </form>
+        </div>
+    </div>
+    <div class="card">
+        <div class="img"><img src="./images/img05.png" alt=""></div>
+        <div class="content">
+            <div class="title">Aubix</div>
+            <div class="chip">
+                <i class="close material-icons">UX Designer</i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Velit blanditiis labore facilis aliquam </p>
+                <form action="https://mnya.tw">
+                    <input type="submit" value="Read more" style="width:120px; height:40px; color: #fff; background-color: #1A68FF;  border-radius: 50px; border: none; outline: none;">
+                    </form>
+        </div>
+    </div>
+    <div class="card">
+        <div class="img"><img src="./images/img06.png" alt=""></div>
+        <div class="content">
+            <div class="title">Aubix</div>
+            <div class="chip">
+                <i class="close material-icons">UX Designer</i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Velit blanditiis labore facilis aliquam </p>
+                <form action="https://mnya.tw">
+                    <input type="submit" value="Read more" style="width:120px; height:40px; color: #fff; background-color: #1A68FF;  border-radius: 50px; border: none; outline: none;">
+                    </form>
+        </div>
+    </div>
+</div>
+<script>
+    $(".label-bar") .owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000, //2000ms = 2s;
+        autoplayHoverPause: true,
+        allowTouchMove:true
+    });
+</script>
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- call to action -->
+<section class="cta">
+    <div class="cta-content">
+    <h1>Connent us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        <br>Eius ut nihil laboriosam quaerat reprehenderit sit dignissimos 
+    </p>
+    <form action="./connent.html">
+        <input class="cta-btn" type="submit" name="Submit" value="Read more">
+        </form>
+    </div>
+</section>
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- footer -->
+<footer class="footer">
+    <div class="site-footer">
+        <div class="site-footer_nav">
+            <div class="site-footer_nav-menu">
+                <p class="site-footer_nav-title">IoT Solutions</p>
+                <ul id="menu-footer-solutions" class="site-footer_nav-list">
+                    <li id="menu-item" class="menu-item type-001">
+                        <a title="item-001" href="">Smart Agriculture</a></li>
+                        <li id="menu-item" class="menu-item type-002">
+                            <a href="">Smart Water</a></li>
+                            <li id="menu-item" class="menu-item type-003">
+                                <a href="">Smart Environment</a></li>
+                                <li id="menu-item" class="menu-item type-004">
+                                    <a href="">Water Management</a></li>
+                                    <li id="menu-item" class="menu-item type-005">
+                                        <a href="">Smart Cities</a></li>
+                                        <li id="menu-item" class="menu-item type-006">
+                                            <a href="">Smart Parking</a></li>
+                                            <li id="menu-item" class="menu-item type-007">
+                                                <a href="">Smart Retail</a></li>
+                </ul>
+            </div>
+            <div class="site-footer_nav-menu">
+                <p class="site-footer_nav-title">IoT Services</p>
+                <ul id="menu-footer-solutions" class="site-footer_nav-list">
+                    <li id="menu-item" class="menu-item type-001">
+                        <a title="item-001" href="">Smart Agriculture</a></li>
+                        <li id="menu-item" class="menu-item type-002">
+                            <a href="">Smart Water</a></li>
+                            <li id="menu-item" class="menu-item type-003">
+                                <a href="">Smart Environment</a></li>
+                                <li id="menu-item" class="menu-item type-004">
+                                    <a href="">Water Management</a></li>
+                                    <li id="menu-item" class="menu-item type-005">
+                                        <a href="">Smart Cities</a></li>
+                                        <li id="menu-item" class="menu-item type-006">
+                                            <a href="">Smart Parking</a></li>
+                                            <li id="menu-item" class="menu-item type-007">
+                                                <a href="">Smart Retail</a></li>
+                </ul>
+            </div>
+            <div class="site-footer_nav-menu">
+                <p class="site-footer_nav-title">IoT Products</p>
+                <ul id="menu-footer-solutions" class="site-footer_nav-list">
+                    <li id="menu-item" class="menu-item type-001">
+                        <a title="item-001" href="">Smart Agriculture</a></li>
+                        <li id="menu-item" class="menu-item type-002">
+                            <a href="">Smart Water</a></li>
+                            <li id="menu-item" class="menu-item type-003">
+                                <a href="">Smart Environment</a></li>
+                                <li id="menu-item" class="menu-item type-004">
+                                    <a href="">Water Management</a></li>
+                                    <li id="menu-item" class="menu-item type-005">
+                                        <a href="">Smart Cities</a></li>
+                                        <li id="menu-item" class="menu-item type-006">
+                                            <a href="">Smart Parking</a></li>
+                                            <li id="menu-item" class="menu-item type-007">
+                                                <a href="">Smart Retail</a></li>
+                </ul>
+            </div>
+            <div class="site-footer_nav-menu">
+                <p class="site-footer_nav-title">Company</p>
+                <ul id="menu-footer-solutions" class="site-footer_nav-list">
+                    <li id="menu-item" class="menu-item type-001">
+                        <a title="item-001" href="">Smart Agriculture</a></li>
+                        <li id="menu-item" class="menu-item type-002">
+                            <a href="">Smart Water</a></li>
+                            <li id="menu-item" class="menu-item type-003">
+                                <a href="">Smart Environment</a></li>
+                                <li id="menu-item" class="menu-item type-004">
+                                    <a href="">Water Management</a></li>
+                                    <li id="menu-item" class="menu-item type-005">
+                                        <a href="">Smart Cities</a></li>
+                                        <li id="menu-item" class="menu-item type-006">
+                                            <a href="">Smart Parking</a></li>
+                                            <li id="menu-item" class="menu-item type-007">
+                                                <a href="">Smart Retail</a></li>
+                </ul>
+            </div>
+            <div class="site-footer_nav-menu">
+                <p class="site-footer_nav-title">Shop</p>
+                <ul id="menu-footer-solutions" class="site-footer_nav-list">
+                    <li id="menu-item" class="menu-item type-001">
+                        <a title="item-001" href="">Smart Agriculture</a></li>
+                        <li id="menu-item" class="menu-item type-002">
+                            <a href="">Smart Water</a></li>
+                            <li id="menu-item" class="menu-item type-003">
+                                <a href="">Smart Environment</a></li>
+                                <li id="menu-item" class="menu-item type-004">
+                                    <a href="">Water Management</a></li>
+                                    <li id="menu-item" class="menu-item type-005">
+                                        <a href="">Smart Cities</a></li>
+                                        <li id="menu-item" class="menu-item type-006">
+                                            <a href="">Smart Parking</a></li>
+                                            <li id="menu-item" class="menu-item type-007">
+                                                <a href="">Smart Retail</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="site-footer_news">
+            <p class="site-footer_news-title">
+                " Would you like to be in “the know” of what’s happening at 
+                the Internet of Things? Sign up and receive the latest, excitest news."
+            </p>
+            <a class="btn site-footer_news-link" href=""> Newsletter </a>
+        </div>
+    </div>
+    <div class="site-footer_colophon">
+        <div class="site-footer_corporate">
+            <a href="" title="Aubix">
+                <img src="./images/logo-white.svg" alt="Aubix" class="site-footer_corporate-img">
+            </a>
+            <p class="site-footer_corporate-text">
+                "© Libelium Comunicaciones Distribuidas S.L. "
+                <span class="site-footer_corporate-bound">
+                    <a href="" title="">"Terms and conditions"</a>
+                    <a href="" title="">"Privacy policy"</a>
+                    <a href="" title="">"Cookies"</a>
+                </span>
+            </p>
+        </div>
+    </div>
+</footer>
+</div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
