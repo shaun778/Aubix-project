@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- header display main Information -->
+<head>
+    <title>Aubix 次世代智慧建築</title>
+    <link rel="icon" type="./images/png" href="images/au-logo.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- body define grid layout system -->
+<body>
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- container -->
+<div class="secondary-bg">
+    <div class="container">
+        <div class="wrapper" data-aos="fade-up" data-aos-duration="1000" data-aos-delay='100'>
+            <nav>
+                <input type="checkbox" id="show-search">
+                <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <div class="au-content">
+            <div class="logo"><a href="./index.html"><img src="./images/aubix-logo.svg"></a></div>
+        <ul class="links">
+            <li><a href="./index.html">首頁</a></li>
+            <li><a href="#" class="desktop-link">認識 Aubix
+                <i class="fas fa-angle-down"></i>
+            </a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">認識 Aubix</label>
+            <ul>
+                <li><a href="#">Drop Menu 1</a></li>
+                <li><a href="#">Drop Menu 2</a></li>
+                <li><a href="#">Drop Menu 3</a></li>
+                <li><a href="#">Drop Menu 4</a></li>
+            </ul>
+            </li>
+            <li><a href="#">解決方案</a></li>
+            <li><a href="#" class="desktop-link">關於我們
+                <i class="fas fa-angle-down"></i>
+            </a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">關於我們</label>
+            <ul>
+                <li><a href="#">Drop Menu 1</a></li>
+                <li><a href="#">Drop Menu 2</a></li>
+                <li><a href="#">Drop Menu 3</a></li>
+                <li>
+                <a href="#" class="desktop-link">More Items
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">More Items</label>
+                <ul>
+                    <li><a href="#">Sub Menu 1</a></li>
+                    <li><a href="#">Sub Menu 2</a></li>
+                    <li><a href="#">Sub Menu 3</a></li>
+                </ul>
+                </li>
+            </ul>
+            </li>
+            <li><a href="resource.html">資源</a></li>
+                <form action="./connent.html">
+                    <input class="cta-btn" type="submit" name="Submit" value="聯繫我們">
+                    </form>
+        </ul>
+        
+        </div>
+        <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+        <form action="#" class="search-box">
+            <input type="text" placeholder="Type Something to Search..." required>
+            <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+        </form>
+        </nav>
+</div>
+
+
+        
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- homepage -->
+<div class="background-letter">
+</div>
+<div class="letter">
+    <div class="contact-us">
+        <div class="title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay='100'>
+            <h1>Connent us</h1>
+        </div>
+        <div class="box">
+            <!-- Form -->
+            <div class="contact form" data-aos="fade-up" data-aos-duration="1000" data-aos-delay='500'>
+                <h3>欲了解更多信息，請填寫以下表格</h3>
+                
+                    <div class="formBox" data-aos="fade-up" data-aos-duration="1000" data-aos-delay='700'>
+                        <div class="row50">
+                            <form action="">
+                            <div class="inputBox" ">
+                                <label for="name">*公司名稱</label>
+                                <input type="text" class="input" data-error="Please input name" placeholder="Type your first name" name="name" id="name" >
+                                
+                            </div>
+                            <div class="inputBox" ">
+                                <label for="lastname">*名稱</label>
+                                <input type="text" class="input" placeholder="Type your last name" name="Lastname" id="lastname" >
+                                
+                            </div>
+                            <div class="inputBox" ">
+                                <label for="email">*電子郵件</label>
+                                <input type="text" class="input" data-error="Please input email" placeholder="aubix@gmail.com" name="email" id="email" >
+                                
+                            </div>
+                            <div class="inputBox" ">
+                                <label for="mobile">*聯絡電話</label>
+                                <input type="text" class="input" placeholder="09000000" name="mobile" id="mobile" >
+                                
+                            </div>
+                        </div>
+                            <div class="row100">
+                                <div class="inputBox">
+                                    <label for="textarea">*諮詢內容</label>
+                                    <textarea placeholder="Write your message here.." cols="30" rows="10" name="textarea" id="textarea" ></textarea>
+                                </div>
+                            </div>
+                        </form>
+                            <div class="row120">
+                                <div class="inputBtn">
+                                    <button id="submit" type="button">提交</button>
+                                </div>
+                            </div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+<!-- footer -->
+<footer class="footer">
+    <div class="site-footer">
+        <div class="site-footer_nav">
+            <div class="site-footer_nav-menu">
+                <p class="site-footer_nav-title">IoT Solutions</p>
+                <ul id="menu-footer-solutions" class="site-footer_nav-list">
+                    <li id="menu-item" class="menu-item type-001">
+                        <a title="item-001" href="">Smart Agriculture</a></li>
+                        <li id="menu-item" class="menu-item type-002">
+                            <a href="">Smart Water</a></li>
+                            <li id="menu-item" class="menu-item type-003">
+                                <a href="">Smart Environment</a></li>
+                                <li id="menu-item" class="menu-item type-004">
+                                    <a href="">Water Management</a></li>
+                                    <li id="menu-item" class="menu-item type-005">
+                                        <a href="">Smart Cities</a></li>
+                                        <li id="menu-item" class="menu-item type-006">
+                                            <a href="">Smart Parking</a></li>
+                                            <li id="menu-item" class="menu-item type-007">
+                                                <a href="">Smart Retail</a></li>
+                </ul>
+            </div>
+            <div class="site-footer_nav-menu">
+                <p class="site-footer_nav-title">IoT Services</p>
+                <ul id="menu-footer-solutions" class="site-footer_nav-list">
+                    <li id="menu-item" class="menu-item type-001">
+                        <a title="item-001" href="">Smart Agriculture</a></li>
+                        <li id="menu-item" class="menu-item type-002">
+                            <a href="">Smart Water</a></li>
+                            <li id="menu-item" class="menu-item type-003">
+                                <a href="">Smart Environment</a></li>
+                                <li id="menu-item" class="menu-item type-004">
+                                    <a href="">Water Management</a></li>
+                                    <li id="menu-item" class="menu-item type-005">
+                                        <a href="">Smart Cities</a></li>
+                                        <li id="menu-item" class="menu-item type-006">
+                                            <a href="">Smart Parking</a></li>
+                                            <li id="menu-item" class="menu-item type-007">
+                                                <a href="">Smart Retail</a></li>
+                </ul>
+            </div>
+            <div class="site-footer_nav-menu">
+                <p class="site-footer_nav-title">IoT Products</p>
+                <ul id="menu-footer-solutions" class="site-footer_nav-list">
+                    <li id="menu-item" class="menu-item type-001">
+                        <a title="item-001" href="">Smart Agriculture</a></li>
+                        <li id="menu-item" class="menu-item type-002">
+                            <a href="">Smart Water</a></li>
+                            <li id="menu-item" class="menu-item type-003">
+                                <a href="">Smart Environment</a></li>
+                                <li id="menu-item" class="menu-item type-004">
+                                    <a href="">Water Management</a></li>
+                                    <li id="menu-item" class="menu-item type-005">
+                                        <a href="">Smart Cities</a></li>
+                                        <li id="menu-item" class="menu-item type-006">
+                                            <a href="">Smart Parking</a></li>
+                                            <li id="menu-item" class="menu-item type-007">
+                                                <a href="">Smart Retail</a></li>
+                </ul>
+            </div>
+            <div class="site-footer_nav-menu">
+                <p class="site-footer_nav-title">Company</p>
+                <ul id="menu-footer-solutions" class="site-footer_nav-list">
+                    <li id="menu-item" class="menu-item type-001">
+                        <a title="item-001" href="">Smart Agriculture</a></li>
+                        <li id="menu-item" class="menu-item type-002">
+                            <a href="">Smart Water</a></li>
+                            <li id="menu-item" class="menu-item type-003">
+                                <a href="">Smart Environment</a></li>
+                                <li id="menu-item" class="menu-item type-004">
+                                    <a href="">Water Management</a></li>
+                                    <li id="menu-item" class="menu-item type-005">
+                                        <a href="">Smart Cities</a></li>
+                                        <li id="menu-item" class="menu-item type-006">
+                                            <a href="">Smart Parking</a></li>
+                                            <li id="menu-item" class="menu-item type-007">
+                                                <a href="">Smart Retail</a></li>
+                </ul>
+            </div>
+            <div class="site-footer_nav-menu">
+                <p class="site-footer_nav-title">Shop</p>
+                <ul id="menu-footer-solutions" class="site-footer_nav-list">
+                    <li id="menu-item" class="menu-item type-001">
+                        <a title="item-001" href="">Smart Agriculture</a></li>
+                        <li id="menu-item" class="menu-item type-002">
+                            <a href="">Smart Water</a></li>
+                            <li id="menu-item" class="menu-item type-003">
+                                <a href="">Smart Environment</a></li>
+                                <li id="menu-item" class="menu-item type-004">
+                                    <a href="">Water Management</a></li>
+                                    <li id="menu-item" class="menu-item type-005">
+                                        <a href="">Smart Cities</a></li>
+                                        <li id="menu-item" class="menu-item type-006">
+                                            <a href="">Smart Parking</a></li>
+                                            <li id="menu-item" class="menu-item type-007">
+                                                <a href="">Smart Retail</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="site-footer_news">
+            <p class="site-footer_news-title">
+                " Would you like to be in “the know” of what’s happening at 
+                the Internet of Things? Sign up and receive the latest, excitest news."
+            </p>
+            <a class="btn site-footer_news-link" href=""> Newsletter </a>
+        </div>
+    </div>
+    <div class="site-footer_colophon">
+        <div class="site-footer_corporate">
+            <a href="" title="Aubix">
+                <img src="./images/logo-white.svg" alt="Aubix" class="site-footer_corporate-img">
+            </a>
+            <p class="site-footer_corporate-text">
+                "© Libelium Comunicaciones Distribuidas S.L. "
+                <span class="site-footer_corporate-bound">
+                    <a href="" title="">"Terms and conditions"</a>
+                    <a href="" title="">"Privacy policy"</a>
+                    <a href="" title="">"Cookies"</a>
+                </span>
+            </p>
+        </div>
+    </div>
+</footer>
+</div>
+    <script>
+
+        $(document).ready(function(){
+            
+            checkFlag = false;
+
+            $("#name").change(function(){
+                if ($("#name").val() == "") {
+                    checkFlag = false;
+                    alert('＊請輸入完整名字資訊！');
+                    
+                } else {
+                    checkFlag = true;
+                }
+                
+            });
+
+            $("#lastname").change(function(){
+                if ($("#lastname").val() == "") {
+                    checkFlag = false;
+                    alert('＊請輸入完整姓氏資訊！');
+                
+                } else {
+                    checkFlag = true;
+                }
+                
+            });
+
+
+            $("#email").change(function(){
+                if ($("#email").val() == "") {
+                    checkFlag = false;
+                    alert('＊請輸入正確Email格式！');
+                    
+                } else {
+                    checkFlag = true;
+                }
+                
+            });
+
+            $("#mobile").change(function(){
+                if ($("#mobile").val() == "") {
+                    checkFlag = false;
+                    alert('＊請輸入完整聯絡電話資訊！');
+                    
+                } else {
+                    checkFlag = true;
+                }
+                
+            });
+
+            $("#textarea").change(function(){
+                if ($("#textarea").val() == "") {
+                    checkFlag = false;
+                    alert('＊請填寫完整諮詢內容！');
+                    
+                } else {
+                    checkFlag = true;
+                }
+                
+            });
+
+
+
+
+
+
+            $("#submit").click(function(){
+
+            
+                let name = $("#name").val();
+                let lastname = $("#lastname").val();
+                let email = $("#email").val();
+                let mobile = $("#mobile").val();
+                let textarea = $("#textarea").val();
+
+                if (name !== "" && lastname !== "" && email !=="" && mobile !=="" && textarea !== "") {
+                    checkFlag = true;
+                } else {
+                    checkFlag = false;
+                }
+
+
+
+                let receiver = '[{"name":"shane","email":"shane@aubix.com"}]';
+                
+
+                let msg_content = 
+                "<html><table>"+
+                "<tr><td>您收到一封來自客戶諮詢的信!</td></tr>"+
+                "<tr><td>名字 :</td>"
+                +name +"</td>"+
+
+                "<tr><td>姓氏 :</td>"
+                +lastname+"</td>"+
+
+                "<tr><td>電子郵件 :</td>"
+                + email +"</td>"+
+                
+                "<tr><td>聯絡電話 :</td>"
+                + mobile +"</td>"+
+                
+                "<tr><td>諮詢內容 :</td>"
+                + textarea +"</td>"+
+                
+                "</table></html>";
+                
+        
+                if (checkFlag) {
+                    $.ajax({
+                        url:'http://54.248.193.221:8006/api/send-mail',
+                        method:'Post',
+                        dataType:'json',
+                        async: false,
+                        data: {'subject':'Aubix優比思科技『 諮詢服務 』Connent us',
+                            'msg_content':msg_content,
+                            'receiver': receiver,
+                        },
+                        
+                        success: function (data) {
+                            
+                                if (data.status == 'success'){
+                                alert('已成功送出！感謝您的諮詢 , Aubix優比思科技將與您聯繫 , 請您耐心等候')
+                                
+                                }},
+                        error: function(err){
+                            alert('error');
+                        }
+                    });
+                } else {
+                    alert("您尚未完成詳細資訊 , 請填寫完整內容！Thanks!");
+                }
+                
+                        
+            });
+        });
+    </script>
+    <!-- <script src="main.js"></script> -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
